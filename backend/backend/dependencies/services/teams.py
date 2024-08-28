@@ -1,6 +1,5 @@
-from ...services.balldontlie.rest_api import RestApiService
 from ...services.teams import TeamsService
 
 
-async def get_teams_service() -> RestApiService:
+async def get_teams_service() -> TeamsService:
     return TeamsService()
